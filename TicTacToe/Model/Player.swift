@@ -12,3 +12,5 @@ struct Player {
     let name: String
     let playerSymbol: String
 }
+
+extension Player: Equatable {}

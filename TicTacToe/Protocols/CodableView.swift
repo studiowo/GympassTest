@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+protocol CodableView {
+    func setupViews()
+    func configViews()
+    func buildViews()
+    func configConstraints()
+}
+
+extension CodableView {
+    func setupViews() {
+        self.configViews()
+        self.buildViews()
+        self.configConstraints()
+    }
+}
