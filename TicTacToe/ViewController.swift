@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     let itemsPerRow: CGFloat = 3
     
     var boardGame: GameBoard = GameBoard()
-    let firstPlayer = Player(name: "Player 😎", playerSymbol: "X")
-    let secondPlayer = Player(name: "Player 🤓", playerSymbol: "O")
+    let firstPlayer = Player(name: "Player 1 😎", playerSymbol: "O")
+    let secondPlayer = Player(name: "Player 2 🤓", playerSymbol: "X")
     var currentPlayer: Player
     
     let collectionView: UICollectionView = {
